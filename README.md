@@ -15,7 +15,7 @@
 - The selected categorical columns were one-hot encoded
 - The numerical columns were scaled using Standard Normalization since original values were in different ranges
 - The response variable was label encoded
-- The 0's and negative values of construction_year & gps_height columns were imputed using the mean of remaining observations
+- The 0's and negative values of construction_year & gps_height columns were imputed using the mean of the remaining observations of those columms
 
 ---
 
@@ -28,19 +28,19 @@
 
 ---
 
-## Score and Rank (as of 15-09-2021)
+## Model Selection & Training
 
 - Random Forest Classifier was used as the model
-- Hyperparameter Optimization was done using Grid Search and identified n_estimators as 500 and max_depth as 20
+- Hyperparameter Optimization was done using Grid Search and identified the best parameters (n_estimators = 500, max_depth = 20, random_state = 1)
 
 ---
 
 ## Score and Rank (as of 15-09-2021)
 
-![Alt text](./Proof/score & rank as of 15-09-2021.jpeg)
+![Alt text](https://github.com/JudeRanidu/ML-Project/blob/main/Proof/score%20%26%20rank%20as%20of%2015-09-2021.jpeg)
 
 ---
 
 ## List of Submissions
 
-![Alt text](./Proof/submission list.jpeg)
+![Alt text](https://github.com/JudeRanidu/ML-Project/blob/main/Proof/submission%20list.jpeg)
